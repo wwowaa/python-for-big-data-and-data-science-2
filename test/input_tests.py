@@ -4,7 +4,7 @@ import pandas as pd
 from app.io.input import read_from_file, read_with_pandas
 
 
-class TestInputOutput(unittest.TestCase):
+class TestInput(unittest.TestCase):
 
     def test_read_from_file_with_python_existing_file(self):
         test_content = "Test content for read_from_file function."
